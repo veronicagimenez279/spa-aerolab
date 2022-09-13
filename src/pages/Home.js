@@ -9,9 +9,9 @@ const Home = async () => {
           <div class="bottom-left">Electronics</div>
         </div>
         <div class ="Products">
-          ${products.map((product) => `
+          ${products.map((product, index) => `
             <article class ="Products-item">
-            <a href ="#/${product._id}/">
+            <a href ="#/${index}/">
                 <img src="${product.img.url}" alt="${product.name}">
                 <div class ="ProductCategory">${product.category}</div>
                 <div class ="ProductName">${product.name}</div>
