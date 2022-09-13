@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 body {
     margin: 0;
@@ -18,7 +19,8 @@ body {
 
 .Header a {
     text-decoration: none;
-    color: #15302C;
+    color: #3B445E;
+    font-family: 'Poppins'
 }
 
 .Main {
