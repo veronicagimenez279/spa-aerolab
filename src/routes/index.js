@@ -11,7 +11,6 @@ import resolveRoutes from "../utils/getResolveRoutes";
 const routes = {
   "/": Home,
   "/:id": Product,
-  "/contact": "Contact",
 };
 
 const router = async () => {
