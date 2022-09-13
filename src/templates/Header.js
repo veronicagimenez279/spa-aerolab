@@ -3,7 +3,7 @@ const Header = () => {
         <div class="Header-main">
             <div class="Header-logo">
                 <h1>
-                    <a href="/"><img src="/aerolab-logo.svg" alt="Logo Aerolab"> Aerolab</a>
+                    <a href="/"><img src="/aerolab-logo.svg" alt="Logo Aerolab"> aerolab</a>
                 </h1>
             </div>
             <div class="Header-nav">
