@@ -3,7 +3,7 @@ import getData from "../utils/getData";
 
 const Product = async () => {
   const id = getHash();
-  const product = getData(id);
+  const product = await getData(id);
   const view = `
         <div class="Products-inner">
             <article class="Product-card">
