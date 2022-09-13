@@ -157,6 +157,10 @@ a:link {
     bottom: 20px;
 }
 
+.container img {
+    width: 100%;
+}
+
 .bottom-left {
     position: absolute;
     bottom: 25px;
