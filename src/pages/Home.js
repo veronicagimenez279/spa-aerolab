@@ -5,7 +5,7 @@ const Home = async () => {
 
   const view = `
         <div class="container">
-          <img src="/header-x2.png" alt="Header Image" style="width:100%;">
+          <img src="/header-x2.png" alt="Header Image">
           <div class="bottom-left">Electronics</div>
         </div>
         <div class ="Products">
