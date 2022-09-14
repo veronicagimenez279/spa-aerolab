@@ -67,7 +67,6 @@ body {
     letter-spacing: -0.04px;
     text-align: center;
     font-weight: bold;
-    background-color: #ffffff;
 }
 
 .Products-card h3 {
@@ -165,8 +164,9 @@ a:link {
     position: absolute;
     bottom: 25px;
     left: 35px;
-    font-size: 50px;
-    font-weight: 800;
+    font-size: 3.5vw;
+    letter-spacing: 1px;
+    font-weight: bolder;
 }
 
 .TotalProducts {
