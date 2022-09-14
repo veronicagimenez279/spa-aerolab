@@ -11,8 +11,10 @@ const getData = async (id) => {
       },
     });
     const data = await response.json();
+    //guarda el producto que esta en el indice (id) dado del array
     const found = data[id];
     console.log(id ? found : data)
+    //si hay un id, devuelve found (los datos del producto en ese id) sino devuelve data
     return id ? found : data;
   } catch (error) {
     console.log("Fetch Error", error);
