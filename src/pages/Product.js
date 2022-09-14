@@ -13,7 +13,7 @@ const Product = async () => {
             <article class="Products-card">
                 <h3>
                     <div class="ProductCategory">Cost </div>
-                    <div class="ProductName">${product.cost}</div>
+                    <div class="ProductName">$${product.cost}</div>
                     <div class="ProductCategory">Category </div>
                     <div class="ProductName">${product.category}</div>
                     <div class="ProductCategory">ID </div>
