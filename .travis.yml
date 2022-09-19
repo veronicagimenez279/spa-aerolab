@@ -7,14 +7,15 @@ node_js:
 git:
   depth: 3
 script:
-  yarn build
+  - yarn build
 deploy:
   provider: pages
-  edge: true
+  edge: true,
   skip_cleanup: true
+  keep_history: true
   github_token: $GITHUB_TOKEN
   local_dir: dist/
   target_branch: gh-pages
-  commit_message: "Deploy to GitHub"
+  commit_message: "Deploy Release"
   on:
     branch: master
