@@ -17,4 +17,4 @@ deploy:
   target_branch: gh-pages
   commit_message: "Deploy to GitHub"
   on:
-    branch: master
+    branch: main
